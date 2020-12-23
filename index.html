@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Website Homepage</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0,">
+
+  <!-- Title bar icons -->
+  <link rel = "icon" href = "images/world.svg" type = "image/x-icon">
+  
+  <!-- Bootstrap-Fonts -->  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+
+  <!-- Bootstrap-css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- Text-css -->
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500&display=swap" rel="stylesheet">
+
+
+  <!-- Slideshow -->
+
+  <style type="text/css">
+
+  /*Slideshow*/
+
+  * {box-sizing: border-box}
+
+  .mySlides {display: none}
+  img {vertical-align: middle;}
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 650px;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Fading animation */
+   .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 4s;
+    animation-name: fade;
+    animation-duration: 4s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .95} 
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .95} 
+    to {opacity: 1}
+  }
+
+  </style>
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  
+  <a class="navbar-brand logo-font" href="#">
+    Brand
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="blogs.html">Blogs</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" onclick="openNav()" href="#">Other</a>
+      </li> 
+
+      <!-- The overlay -->
+      <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+          <!-- Overlay content -->
+            <div class="overlay-content">
+              <a href="Page1.html">Page1</a>
+              <a href="Page2.html">Page2</a>
+              <a href="Page3.html">Page3</a>
+              <a href="Page4.html">Page4</a>
+            </div>
+
+      </div> 
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+      <li class="nav-item"><a class="nav-link" href="login.html" target="_blank">Login</a></li>
+    </ul>
+
+  </div>
+</nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">I am a Jumbotron</h1>
+      <p class="lead">Some text here!</p>
+    </div>
+  </div>
+
+  <!-- End of jumbotron -->
+
+<hr style="margin-bottom: 24px">
+
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+
+    <!-- Full-width images -->
+    <div class="mySlides fade shadow-sm">
+      <img src="https://via.placeholder.com/650x300" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="https://via.placeholder.com/650x300/FFFF00/000000? C/O https://placeholder.com/" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="https://via.placeholder.com/650x300/FF0000/FFFFFF?
+C/O https://placeholder.com/" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="https://via.placeholder.com/650x300/000000/FFFFFF/
+C/O https://placeholder.com/" style="width:100%">
+    </div>
+ 
+  </div>
+  <br>
+
+  <!-- End of slideshow container -->
+
+<hr style="margin-top: 0px;margin-bottom: 16px">
+  
+  <div class="container">
+    <h1 class="heading">Heading 1</h1>
+    <img src="https://via.placeholder.com/1000x400" style="width: 100%;margin-bottom: 10px">
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <p>
+    Egestas purus viverra accumsan in nisl nisi scelerisque. Ultricies integer quis auctor elit sed vulputate mi sit amet. Eget est lorem ipsum dolor sit amet. Potenti nullam ac tortor vitae. Et leo duis ut diam quam nulla porttitor massa. Tellus mauris a diam maecenas sed enim ut sem. Scelerisque in dictum non consectetur a erat nam at. Quisque egestas diam in arcu. Amet consectetur adipiscing elit ut aliquam purus. Sed augue lacus viverra vitae congue eu. Imperdiet massa tincidunt nunc pulvinar.
+    </p>
+
+<hr> 
+
+    <h2 class="heading">Heading 2</h2>
+    <p>
+      Massa sapien faucibus et molestie ac. Enim nunc faucibus a pellentesque sit. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus. Ridiculus mus mauris vitae ultricies. Auctor neque vitae tempus quam pellentesque nec nam. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Eu mi bibendum neque egestas congue quisque egestas diam in. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Commodo elit at imperdiet dui accumsan sit. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum. Lectus urna duis convallis convallis tellus id interdum velit. Nullam eget felis eget nunc lobortis mattis.
+    </p>
+
+<hr>
+
+    <h2 class="heading">Heading 3</h2>
+    <img src="https://via.placeholder.com/125x125" alt="image" height="125" width="125" style="float: left; margin-right: 10px;margin-bottom: 0px">
+    <p>
+      Id consectetur purus ut faucibus pulvinar elementum integer enim neque. Malesuada fames ac turpis egestas maecenas pharetra. Tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Sagittis id consectetur purus ut faucibus pulvinar elementum integer enim. Turpis massa sed elementum tempus egestas sed sed. Id venenatis a condimentum vitae sapien pellentesque habitant morbi. Venenatis cras sed felis eget velit aliquet sagittis id. Orci eu lobortis elementum nibh tellus molestie nunc non blandit. Rutrum quisque non tellus orci ac. A cras semper auctor neque vitae tempus quam. Auctor eu augue ut lectus arcu bibendum at. Tempus imperdiet nulla malesuada pellentesque elit. Eget nullam non nisi est sit.
+    </p>
+    
+    <p>
+      Dis parturient montes nascetur ridiculus mus. Interdum varius sit amet mattis vulputate enim nulla aliquet porttitor. Mauris rhoncus aenean vel elit scelerisque mauris. Lacus viverra vitae congue eu consequat ac felis donec. Scelerisque eu ultrices vitae auctor eu augue ut. Adipiscing at in tellus integer feugiat scelerisque. Viverra nam libero justo laoreet sit. Sit amet porttitor eget dolor. Lacus sed turpis tincidunt id. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa.
+    </p>
+        <img src="https://via.placeholder.com/200x200" height="200" width="200" style="float: right;margin-left:10px">
+
+    <p>
+      Id consectetur purus ut faucibus pulvinar elementum integer enim neque. Malesuada fames ac turpis egestas maecenas pharetra. Tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Sagittis id consectetur purus ut faucibus pulvinar elementum integer enim. Turpis massa sed elementum tempus egestas sed sed. Id venenatis a condimentum vitae sapien pellentesque habitant morbi. Venenatis cras sed felis eget velit aliquet sagittis id. Orci eu lobortis elementum nibh tellus molestie nunc non blandit. Rutrum quisque non tellus orci ac. A cras semper auctor neque vitae tempus quam. Auctor eu augue ut lectus arcu bibendum at. Tempus imperdiet nulla malesuada pellentesque elit. Eget nullam non nisi est sit.
+    </p>
+    <p>  
+      Massa sapien faucibus et molestie ac. Enim nunc faucibus a pellentesque sit. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus. Ridiculus mus mauris vitae ultricies. Auctor neque vitae tempus quam pellentesque nec nam. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Eu mi bibendum neque egestas congue quisque egestas diam in. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Commodo elit at imperdiet dui accumsan sit. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum. Lectus urna duis convallis convallis tellus id interdum velit. Nullam eget felis eget nunc lobortis mattis.
+    </p>
+  </div>
+
+<hr>
+
+<!-- Cards -->
+
+  <div class="container">
+    <h2 class="heading" style="font-size: 40px">Cards</h2>
+  <div class="row">
+    
+
+    <div class="col-md-4">
+
+            <div class="card mb-4 shadow-sm">
+              <img src="https://via.placeholder.com/225x130" height="225">
+              <div class="card-body">
+                <h3 class="heading-card">Card 1</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor augue mauris augue neque gravida in fermentum. Vitae justo eget magna fermentum iaculis. Eget lorem dolor sed viverra ipsum nunc. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Enim blandit volutpat maecenas volutpat blandit aliquam. Vestibulum lectus mauris ultrices eros. Netus et malesuada fames ac turpis egestas sed tempus. Vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur. In iaculis nunc sed augue lacus viverra vitae congue eu. In arcu cursus euismod quis viverra nibh cras. Egestas integer eget aliquet nibh.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href=""><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="https://via.placeholder.com/225x130" height="225">
+              <div class="card-body">
+                <h3 class="heading-card">Card 2</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor augue mauris augue neque gravida in fermentum. Vitae justo eget magna fermentum iaculis. Eget lorem dolor sed viverra ipsum nunc. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Enim blandit volutpat maecenas volutpat blandit aliquam. Vestibulum lectus mauris ultrices eros. Netus et malesuada fames ac turpis egestas sed tempus. Vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur. In iaculis nunc sed augue lacus viverra vitae congue eu. In arcu cursus euismod quis viverra nibh cras. Egestas integer eget aliquet nibh.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href=""><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="https://via.placeholder.com/225x130" height="225">
+              <div class="card-body">
+                <h3 class="heading-card">Card 3</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor augue mauris augue neque gravida in fermentum. Vitae justo eget magna fermentum iaculis. Eget lorem dolor sed viverra ipsum nunc. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Enim blandit volutpat maecenas volutpat blandit aliquam. Vestibulum lectus mauris ultrices eros. Netus et malesuada fames ac turpis egestas sed tempus. Vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur. In iaculis nunc sed augue lacus viverra vitae congue eu. In arcu cursus euismod quis viverra nibh cras. Egestas integer eget aliquet nibh.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href=""><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  </div>
+  </div>
+
+  <hr>
+
+<div>
+    <button class="accordion">About Developer</button>
+  <div class="panel">
+    <div class="row">
+      <div class="name-column">
+        <div class="card">
+          <img src="images/ketan_jakhar.jpeg" alt="Ketan Jakhar" style="width:100%">
+          <div class="container">
+            <h2 id="name-title">Ketan Jakhar</h2>
+            <p class="designation">Amateur Web Developer</p>
+            <p id="contact-id">
+              Age-20
+              <br>
+              Education- The LNM Institute of Information Technology
+            </p>
+            <p id="email-id">ketanjakhar29@gmail.com</p>
+            <p><a href="https://mail.google.com/mail/?to=ketanjakhar29@gmail.com&subject=Hello" target="_blank"><button class="button">Contact</button></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <footer class="container-fluid py-5 bg-dark responsive">
+      <div class=" column footer-text-div">
+          <p id="footer-text">&copy; Ketan Jakhar</p>
+          <p id="footer-text">All rights reserved.</p>
+      </div>
+  </footer>
+
+
+  <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap-js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  <!-- Text-js -->
+    <script type="text/javascript" src="js/index.js"></script>
+
+
+  <!-- Slideshow-script -->
+  <script type="text/javascript">
+    // Slideshow
+
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 4000); // Change image every 4 seconds
+      }
+
+
+
+    // Accordian
+
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+
+
+  </script>
+
+</body>
+</html>

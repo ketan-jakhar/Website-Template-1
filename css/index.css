@@ -1,0 +1,229 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+	margin: auto;
+  text-align: justify;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.heading{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/*Jumbotron*/
+
+.jumbotron{
+	background-color: #F0FFF0;
+}
+
+/* The Overlay (background) */
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+
+/*Brand logo font*/
+.logo-font{
+	font-family: 'Special Elite', cursive;
+}
+
+
+/*Contact card*/
+
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.name-column {
+	margin-top: 20px;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .name-column {
+    max-width: 100%;
+    display: block;
+ 	margin-left: 10%;
+  	margin-right: 10%;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.name-container {
+  padding: 0 16px;
+}
+
+.name-container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+#contact-id{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 15px;
+}
+
+h2#name-title{
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 600;
+	margin-top: 3px;
+	text-align: center;
+}
+
+p.designation{
+	font-family: 'Roboto Mono', monospace;
+	color: slategray;
+	font-weight: 300;
+	font-size: 12px;
+	text-align: center;
+}
+
+p#email-id{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 15px;
+
+}
+
+h2.developer{
+	text-align: center;
+}
+
+
+/*Footer*/
+
+.footer-heading{
+	color: #F5F5F5;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+#footer-text{
+	color: white;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+}
+
+
+/*Strain-Type-Cards*/
+
+.description-strain{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.heading-card{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	text-align: center;
+}
+
+
+/*Accordian*/
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
