@@ -24,7 +24,7 @@ p{
 /* The Overlay (background) */
 
 .overlay {
-  height: 0%;
+  height: 0;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -100,7 +100,7 @@ p{
   .name-column {
     max-width: 100%;
     display: block;
- 	margin-left: 10%;
+ 	  margin-left: 10%;
   	margin-right: 10%;
   }
 }
@@ -181,7 +181,7 @@ h2.developer{
   height: auto;
 }
 
-#footer-text{
+.footer-text{
 	color: white;
 	text-align: center;
 	font-family: 'Roboto Mono', monospace;
