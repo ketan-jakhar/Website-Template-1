@@ -78,7 +78,7 @@ body{
   height: auto;
 }
 
-#footer-text{
+.footer-text{
 	color: white;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
