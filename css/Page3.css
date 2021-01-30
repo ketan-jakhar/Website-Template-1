@@ -44,7 +44,7 @@ p.border-bottom-para{
 /* The Overlay (background) */
 
 .overlay {
-  height: 0%;
+  height: 0;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -107,7 +107,7 @@ p.border-bottom-para{
 }
 
 
-#footer-text{
+.footer-text{
 	color: white;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
